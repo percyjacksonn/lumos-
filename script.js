@@ -169,57 +169,111 @@ const CURRICULUM = {
       unit: 1,
       teacher: "Mrs.R.Meenakshiammal",
       title: "Unit 1 Notes",
-      filePath: "cse/sem3/dsa/typing%20certificate.pdf",
-    },
+      filePath: "unit1-dsa-notes.pdf",    },
     {
       subjectIndex: 0,
       type: "teacher-notes",
       unit: 2,
       teacher: "Mrs.R.Meenakshiammal",
       title: "Unit 2 Notes",
-      filePath: "cse/sem3/dsa/unit2-notes.pdf",
+      filePath: "unit2-dsa-notes.pdf",
     },
     {
       subjectIndex: 0,
-      type: "important",
-      unit: 1,
+      type: "teacher-notes",
+      unit: 3,
       teacher: "Mrs.R.Meenakshiammal",
-      title: "Unit 1 Important Questions",
-      filePath: "cse/sem3/dsa/unit1-important-questions.pdf",
+      title: "Unit 3 Notes",
+      filePath: "unit3-dsa-notes.pdf",
     },
     {
       subjectIndex: 0,
-      type: "pyq",
-      unit: null,              // PYQs aren't unit-specific, so unit is null
+      type: "teacher-notes",
+      unit: 4,
       teacher: "Mrs.R.Meenakshiammal",
-      title: "DSA 2024 Question Paper",
-      filePath: "cse/sem3/dsa/dsa-2024-qp.pdf",
+      title: "Unit 4 Notes",
+      filePath: "unit4-dsa-notes.pdf",
     },
+    {
+      subjectIndex: 0,
+      type: "teacher-notes",
+      unit: 5,
+      teacher: "Mrs.R.Meenakshiammal",
+      title: "Unit 5 Notes",
+      filePath: "unit5-dsa-notes.pdf",
+    },
+    {
+      subjectIndex: 0,
+      type: "lab",
+      unit: '1 ,2 ,3 4',              // PYQs aren't unit-specific, so unit is null
+      teacher: "Mrs.R.Meenakshiammal",
+      title: "DSA Manual",
+      filePath: "dsa-prg-1234.pdf",
+    },
+
+    {
+      subjectIndex: 0,
+      type: "lab",
+      unit:' 5,6,7',             // PYQs aren't unit-specific, so unit is null
+      teacher: "Mrs.R.Meenakshiammal",
+      title: "DSA Manual",
+      filePath: "dsa-prg-567.pdf",
+    },
+
+    {
+      subjectIndex: 0,
+      type: "lab",
+      unit: '8,9',             // PYQs aren't unit-specific, so unit is null
+      teacher: "Mrs.R.Meenakshiammal",
+      title: "DSA Manual",
+      filePath: "dsa-prg-89.pdf",
+    },
+
+    {
+      subjectIndex: 0,
+      type: "lab",
+      unit: '10,11,12',          // PYQs aren't unit-specific, so unit is null
+      teacher: "Mrs.R.Meenakshiammal",
+      title: "DSA Manual",
+      filePath: "dsa-prg101112.pdf",
+    },
+
+    {
+      subjectIndex: 0,
+      type: "lab-",
+      unit: '14 15 ',         // PYQs aren't unit-specific, so unit is null
+      teacher: "Mrs.R.Meenakshiammal",
+      title: "DSA Manual",
+      filePath: "dsa-prg-1415.pdf",
+    },
+    
+    {
+      subjectIndex: 0,
+      type: "lab",
+      unit: '16,17',          // PYQs aren't unit-specific, so unit is null
+      teacher: "Mrs.R.Meenakshiammal",
+      title: "DSA Manual",
+      filePath: "dsa-prg-1617.pdf",
+    },
+
 
     // ===== Database Management Systems (subjectIndex 1) =====
     {
       subjectIndex: 1,
-      type: "teacher-notes",
+      type: "lab",
       unit: 1,
       teacher: "Mrs.Sindhuja",
-      title: "Unit 1 Notes",
-      filePath: "cse/sem3/dbms/unit1-notes.pdf",
+      title: "Lab Manual",
+      filePath: "DBMS LAB MANUAL.docx",
     },
+  
     {
       subjectIndex: 1,
-      type: "question-bank",
-      unit: null,
+      type: "teacher-notes",
+      unit: '1,2,3',
       teacher: "Mrs.Sindhuja",
-      title: "DBMS Question Bank",
-      filePath: "cse/sem3/dbms/dbms-question-bank.pdf",
-    },
-    {
-      subjectIndex: 1,
-      type: "assignment",
-      unit: 3,
-      teacher: "Mrs.Sindhuja",
-      title: "Unit 3 Assignment",
-      filePath: "cse/sem3/dbms/unit3-assignment.pdf",
+      title: "Unit 1,2, 3 Notes",
+      filePath: "unit123-dbms-notes.pdf",
     },
 
     // ===== Microprocessors... (subjectIndex 2) =====
@@ -229,7 +283,24 @@ const CURRICULUM = {
       unit: null,              // labs generally aren't unit-specific either
       teacher: "Mrs.R.Thazleema Banu",
       title: "Microprocessors Lab Manual",
-      filePath: "cse/sem3/mpmc/lab-manual.pdf",
+      filePath: "microprocessor lab manual-1.pdf",
+    },
+    
+    {
+      subjectIndex: 2,
+      type: "teacher-notes",
+      unit: '1,2',              // labs generally aren't unit-specific either
+      teacher: "Mrs.R.Thazleema Banu",
+      title: "Unit 1 and Unit 2 Notes",
+      filePath: "unit1-micro-notes.pdf",
+    },
+    {
+      subjectIndex: 2,
+      type: "teacher-notes",
+      unit: null,              // labs generally aren't unit-specific either
+      teacher: "Mrs.R.Thazleema Banu",
+      title: "Unit 3 Notes",
+      filePath: "unit3-micro-notes.pdf",
     },
 
     // ===== OOPS using Java Programming (subjectIndex 3) =====
@@ -239,25 +310,42 @@ const CURRICULUM = {
       unit: 1,
       teacher: "Dr.R.Sahila Devi",
       title: "Unit 1 Notes",
-      filePath: "javabook (1).pdf",   // your existing sample file
+      filePath: "unit1-java-notes.pdf",   // your existing sample file
     },
     {
       subjectIndex: 3,
-      type: "syllabus",
-      unit: null,
+      type: "teacher-notes",
+      unit: 2,
       teacher: "Dr.R.Sahila Devi",
-      title: "OOPS Java Syllabus",
-      filePath: "cse/sem3/oops/syllabus.pdf",
+      title: "Unit-2 ",
+      filePath: "unit2-java-notes.pdf",
     },
 
     // ===== Computer Architecture and Organization (subjectIndex 4) =====
     {
       subjectIndex: 4,
-      type: "reference",
-      unit: null,
+      type: "teacher-notes",
+      unit: 1,
       teacher: "Mrs.Anushlin Leena",
-      title: "Computer Architecture Reference Notes",
-      filePath: "cse/sem3/coa/reference-notes.pdf",
+      title: "Unit 1",
+      filePath: "unit1-ca-notes.pdf",
+    },
+     // ===== Computer Architecture and Organization (subjectIndex 4) =====
+    {
+      subjectIndex: 4,
+      type: "teacher-notes",
+      unit: 2,
+      teacher: "Mrs.Anushlin Leena",
+      title: "Unit 2",
+      filePath: "unit2-ca-notes.pdf",
+    }, // ===== Computer Architecture and Organization (subjectIndex 4) =====
+    {
+      subjectIndex: 4,
+      type: "teacher-notes",
+      unit: 3,
+      teacher: "Mrs.Anushlin Leena",
+      title: "Unit 3",
+      filePath: "unit3-ca-notes.pdf",
     },
 
     // ===== Probability, random Process and Statistics (subjectIndex 5) =====
@@ -276,7 +364,6 @@ const CATEGORIES = [
   { key: "teacher-notes", label: "Teacher Notes", emoji: "📚", desc: "Lecture and handwritten notes by faculty" },
   { key: "pyq", label: "Previous Year Papers", emoji: "📄", desc: "Solved and unsolved question papers" },
   { key: "important", label: "Important Questions", emoji: "⭐", desc: "High-yield questions worth revising first" },
-  { key: "question-bank", label: "Question Bank", emoji: "📝", desc: "Full practice sets across every unit" },
   { key: "assignment", label: "Assignments", emoji: "📑", desc: "Graded and practice assignments" },
   { key: "lab", label: "Lab Materials", emoji: "🧪", desc: "Manuals, records and viva questions" },
   { key: "syllabus", label: "Syllabus", emoji: "📖", desc: "Official unit-wise course outline" },
@@ -367,9 +454,7 @@ function makeRealResource({ subjectId, subjectName, type, unit, teacher, title, 
           units.forEach((u) => {
             finalTeachers.forEach((teacher, ti) => {
               resources.push(makeResource({ subjectId, subjectName: name, type: "teacher-notes", unit: u, teacher, title: `Unit ${u} Notes`, seed: `${subjectId}-tn-${u}-${ti}` }));
-              if (hash(`${subjectId}${u}${teacher}hw`) % 2 === 0) {
-                resources.push(makeResource({ subjectId, subjectName: name, type: "teacher-notes", unit: u, teacher, title: `Unit ${u} Handwritten Notes`, seed: `${subjectId}-hw-${u}-${ti}` }));
-              }
+              
             });
             resources.push(makeResource({ subjectId, subjectName: name, type: "important", unit: u, teacher: finalTeachers[0], title: `Unit ${u} Important Questions`, seed: `${subjectId}-iq-${u}` }));
             if (hash(`${subjectId}${u}as`) % 3 === 0) {
@@ -379,7 +464,6 @@ function makeRealResource({ subjectId, subjectName, type, unit, teacher, title, 
           [2025, 2024, 2023].forEach((yr) => {
             resources.push(makeResource({ subjectId, subjectName: name, type: "pyq", unit: null, teacher: finalTeachers[0], title: `${name} ${yr} Question Paper`, seed: `${subjectId}-pyq-${yr}` }));
           });
-          resources.push(makeResource({ subjectId, subjectName: name, type: "question-bank", unit: null, teacher: finalTeachers[0], title: `${name} Question Bank`, seed: `${subjectId}-qb` }));
           resources.push(makeResource({ subjectId, subjectName: name, type: "syllabus", unit: null, teacher: finalTeachers[0], title: `${name} Syllabus`, seed: `${subjectId}-syl` }));
           resources.push(makeResource({ subjectId, subjectName: name, type: "reference", unit: null, teacher: finalTeachers[0], title: `${name} Reference Notes`, seed: `${subjectId}-ref` }));
           if (hash(`${subjectId}lab`) % 2 === 0) {
@@ -402,10 +486,26 @@ function makeRealResource({ subjectId, subjectName, type, unit, teacher, title, 
                 }));
               });
           }
+// Keep only real resources that have a Supabase file URL.
+// This removes all the fake demo cards.
+const realResources = resources.filter((r) => r.url);
 
-          resources.forEach((r) => (resourcesById[r.id] = r));
+realResources.forEach((r) => {
+  resourcesById[r.id] = r;
+});
 
-          subjectsById[subjectId] = { id: subjectId, name, deptId: dept.id, year, sem, code, credits, teachers: finalTeachers, units, resourceIds: resources.map((r) => r.id) };
+subjectsById[subjectId] = {
+  id: subjectId,
+  name,
+  deptId: dept.id,
+  year,
+  sem,
+  code,
+  credits,
+  teachers: finalTeachers,
+  units,
+  resourceIds: realResources.map((r) => r.id),
+};
           byDeptYearSem[key].push(subjectId);
         });
       });
@@ -541,19 +641,34 @@ function viewResource(id) {
   const r = resourcesById[id];
   if (!r || !r.url) { showToast("This is a demo card — no real file attached yet"); return; }
   window.open(r.url, "_blank", "noopener");
-}
-function downloadResource(id) {
+}async function downloadResource(id) {
   const r = resourcesById[id];
-  if (!r || !r.url) { showToast("This is a demo card — no real file attached yet"); return; }
-  const a = document.createElement("a");
-  a.href = r.url;
-  a.download = r.title || "file";
-  a.target = "_blank";
-  a.rel = "noopener";
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
-  showToast(`Downloading "${r.title}"…`);
+
+  if (!r || !r.filePath) {
+    showToast("No real file is attached yet");
+    return;
+  }
+
+  const { data, error } = await supabase.storage
+    .from(SUPABASE_BUCKET)
+    .download(r.filePath);
+
+  if (error) {
+    showToast("Download failed: " + error.message);
+    return;
+  }
+
+  const blobUrl = URL.createObjectURL(data);
+  const link = document.createElement("a");
+
+  link.href = blobUrl;
+  link.download = r.filePath.split("/").pop() || "study-material.pdf";
+
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+
+  URL.revokeObjectURL(blobUrl);
 }
 function copyResourceLink(id) {
   const r = resourcesById[id];
@@ -606,7 +721,7 @@ function renderHeader() {
   <header class="site-header">
     <div class="wrap header-inner">
       <button class="brand" data-action="go-home">
-<span class="brand-mark">${icon("mark", 18, "color:#fff")}</span>        <span class="font-display brand-name">lumos-reparo</span>
+<span class="brand-mark">${icon("mark", 18, "color:#fff")}</span>      <span class="font-display brand-name"> lumos </span>
       </button>
       <nav class="main-nav">
         <button data-action="go-home" class="nav-link ${state.page === "home" ? "active" : ""}">Home</button>
@@ -628,7 +743,6 @@ function renderHeader() {
       <button data-action="go-home">Home</button>
       <button data-action="go-browse">Courses</button>
       <button data-action="set-page" data-page="saved">Saved</button>
-      <button data-action="set-page" data-page="dashboard">Dashboard</button>
       <button data-action="set-page" data-page="upload">Contribute</button>
     </div>` : ""}
   </header>`;
@@ -643,14 +757,14 @@ function renderSearchOverlay() {
   const hasAny = results.subjects.length || results.resources.length || results.teachers.length;
   return `
   <div class="overlay" data-action="close-search">
-    <div class="search-panel" onclick="event.stopPropagation()">
+    <div class="search-panel">
       <div class="search-top">
         ${icon("search", 18)}
         <input id="search-input" data-action="search-input" value="${esc(q)}" placeholder="Search subjects, notes, teachers, course codes..." />
         <button class="icon-btn" style="width:32px;height:32px;border-width:2px;" data-action="close-search">${icon("x", 15)}</button>
       </div>
       <div class="search-results">
-        ${q.trim().length < 2 ? `<p style="font-size:14px;color:var(--ink-99);text-align:center;padding:24px 8px;">Try "DBMS", "Priya", or a course code like CSE301.</p>` : ""}
+        ${q.trim().length < 2 ? `<p style="font-size:14px;color:var(--ink-99);text-align:center;padding:24px 8px;">Try "DBMS", "Unit 2", or a course code like CSE301.</p>` : ""}
         ${q.trim().length >= 2 && !hasAny ? renderEmptyState("No results found", "Try a different subject, teacher name or course code.") : ""}
         ${results.subjects.length ? `
         <div class="search-group">
@@ -701,7 +815,7 @@ function renderHomePage() {
       <div class="hero-stats">
         <span>${totals.subjCount}+ subjects mapped</span>
         <span>${totals.resCount.toLocaleString()}+ resources</span>
-        <span>8 departments</span>
+        <span>7 departments</span>
       </div>
     </div>
   </section>
@@ -902,35 +1016,12 @@ function renderBrowsePage() {
       </div>
     </div>`;
   }
-
-  if (nav.category === "teacher-notes" && !nav.teacherId) {
-    return `
-    <div class="wrap" style="padding:40px 0;">
-      ${renderBreadcrumb([...crumbsBase, { label: subject.name, action: "back-to-level", data: { level: "category" } }, { label: "Teacher Notes" }])}
-      <h1 class="font-display" style="font-size:30px;">Notes by Faculty</h1>
-      <p style="margin-top:8px;font-weight:600;color:var(--ink-99);">${esc(subject.name)} · Pick a teacher to see their notes</p>
-      <div class="grid teacher-grid">
-        ${subject.teachers.map((t) => {
-          const files = subject.resourceIds.map((id) => resourcesById[id]).filter((r) => r.type === "teacher-notes" && r.teacher === t);
-          const units = new Set(files.map((f) => f.unit)).size;
-          return `
-          <button class="doodle-card teacher-card" data-action="select-teacher" data-teacher="${esc(t)}">
-            <div class="teacher-avatar">👩‍🏫</div>
-            <div class="font-display teacher-name">${esc(t)}</div>
-            <p class="teacher-sub">${esc(subject.name)} Notes</p>
-            <div class="teacher-foot"><span>${units} Units · ${files.length} Files</span><span style="color:var(--coral-d);display:inline-flex;align-items:center;gap:4px;">View Notes ${icon("arrowRight", 13)}</span></div>
-          </button>`;
-        }).join("")}
-      </div>
-    </div>`;
-  }
-
   if (nav.category === "teacher-notes" && nav.teacherId) {
     const files = subject.resourceIds.map((id) => resourcesById[id]).filter((r) => r.type === "teacher-notes" && r.teacher === nav.teacherId);
     const grouped = groupByUnit(files);
     return `
     <div class="wrap" style="padding:40px 0;">
-      ${renderBreadcrumb([...crumbsBase, { label: subject.name, action: "back-to-level", data: { level: "category" } }, { label: "Teacher Notes", action: "select-teacher-null" }, { label: nav.teacherId }])}
+      ${renderBreadcrumb([...crumbsBase, { label: subject.name, action: "back-to-level", data: { level: "category" } }, { label: " Notes", action: "select-teacher-null" }, { label: nav.teacherId }])}
       <div class="flex items-center" style="gap:12px;">
         <div class="teacher-avatar" style="width:56px;height:56px;font-size:24px;">👩‍🏫</div>
         <div>
@@ -1010,7 +1101,7 @@ function renderResourceModal() {
 
   return `
   <div class="modal-overlay" data-action="close-modal">
-    <div class="modal-panel" onclick="event.stopPropagation()">
+    <div class="modal-panel">
       <div class="modal-head">
         <div class="modal-head-top">
           <div class="modal-tags">
@@ -1033,10 +1124,18 @@ function renderResourceModal() {
           ${infoBlock("Downloads", resource.downloads)}
         </div>
         <p class="modal-desc">${cat.desc}. Reviewed for accuracy before publishing so you can revise with confidence.</p>
-        <div class="preview-box">
-          ${icon("fileText", 28, "color:var(--ink-66)")}
-          <span>${resource.url ? "Tap Open PDF to view in a new tab" : "Demo card — no real file attached yet"}</span>
-        </div>
+       ${resource.url ? `
+  <iframe
+    class="pdf-preview"
+    src="${esc(resource.url)}"
+    title="${esc(resource.title)}">
+  </iframe>
+` : `
+  <div class="preview-box">
+    ${icon("fileText", 28, "color:var(--ink-66)")}
+    <span>No PDF is attached to this resource yet.</span>
+  </div>
+`}
         <div class="modal-actions">
           <button class="btn btn-primary" data-action="view-resource" data-id="${esc(resource.id)}">${icon("eye", 15)} Open PDF</button>
           <button class="btn btn-secondary" data-action="download-resource" data-id="${esc(resource.id)}">${icon("download", 15)} Download</button>
@@ -1068,7 +1167,7 @@ function infoBlock(label, value) {
 let uploadSubmitted = false;
 
 function renderUploadPage() {
-  const resourceTypes = ["Teacher Notes", "Handwritten Notes", "PYQ", "Important Questions", "Question Bank", "Assignment", "Lab Material", "Reference Material"];
+  const resourceTypes = [" Notes", "Handwritten Notes", "PYQ", "Important Questions", "Assignment", "Lab Material", "Reference Material"];
 
   if (uploadSubmitted) {
     return `
@@ -1199,8 +1298,8 @@ function renderFooter() {
       <div class="footer-brand">
         <div class="flex items-center" style="gap:8px;">
         <span class="brand-mark">${icon("mark", 17, "color:#fff")}</span>
-          <span class="brand-mark" style="width:32px;height:32px;">${icon("cap", 15, "color:#fff")}</span>
-          <span class="font-display" style="font-size:18px;">lumos-reparo</span>
+         
+          <span class="font-display" style="font-size:18px;">lumos</span>
         </div>
         <p>Everything you need. One organised place.<br><br>Built for Us the Students to Access the Resources to Our Academic(;<br> <br>
           The Scattered Resources In Google classroom,Whatsapp,Drive,etc.. Is Now At One Place <br> <br>All You Need To do is Log in To access the Resources/Pdf<br><br> </p><h3>There is No Right <i>"Time"</i>To Start.. Get Started Now !! </h3>
@@ -1245,7 +1344,7 @@ but then again, most good things are.</span>
         </div>
       </div>
     </div>
-    <div class="footer-bottom">©Copyright lumos-reparo · A study-material sharing platform created by Pooja and the team As our 2nd yr Mini Project </div>
+    <div class="footer-bottom">©Copyright lumos· A study-material sharing platform created by Pooja and the team As our 2nd yr Mini Project </div>
   </footer>`;
 }
 
@@ -1313,8 +1412,17 @@ document.addEventListener("click", (e) => {
     case "set-unit-filter": setUnitFilter(el.getAttribute("data-unit")); break;
     case "quick-category": quickCategory(el.getAttribute("data-category")); break;
     case "open-search": setState({ searchOpen: true }); break;
-    case "close-search": setState({ searchOpen: false, searchQuery: "" }); break;
-    case "close-modal": setState({ activeResourceId: null }); break;
+    case "close-search": {
+      const isBackdrop = el.classList.contains('overlay');
+      if (isBackdrop && e.target !== el) break;
+      setState({ searchOpen: false, searchQuery: "" });
+      break;
+    }    case "close-modal": {
+  const isBackdrop = el.classList.contains('modal-overlay');
+  if (isBackdrop && e.target !== el) break; // click landed inside the panel content, not the dark backdrop — ignore it
+  setState({ activeResourceId: null });
+  break;
+}
     case "toggle-mobile-menu": setState({ mobileMenuOpen: !state.mobileMenuOpen }); break;
     case "search-goto-subject": goToSubjectFromSearch(el.getAttribute("data-id")); break;
     case "search-goto-resource": goToResourceFromSearch(el.getAttribute("data-id")); break;
