@@ -398,7 +398,6 @@ svg.ic{ stroke:currentColor; fill:none; stroke-width:2; stroke-linecap:round; st
 }
 
 .dept-card::after {
-  content: "Explore →";
   position: absolute;
   right: 18px;
   bottom: 16px;
