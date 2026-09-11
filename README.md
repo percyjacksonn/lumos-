@@ -1,4 +1,3 @@
-#Lumos
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=F0523A&height=190&section=header&text=LUMOS&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>✨ Lumos
 
 📚 A Study Material Sharing Portal for Students
