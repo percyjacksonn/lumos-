@@ -1,9 +1,4 @@
-
-            
-            
-            
-            
-            <div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=F0523A&height=190&section=header&text=LUMOS&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>✨ Lumos
+ <div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=F0523A&height=190&section=header&text=LUMOS&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>✨ Lumos
 
 📚 A Study Material Sharing Portal for Students
 
@@ -52,7 +47,7 @@ Lumos is built around a simple idea:
           ↓
       🎓 STUDY
 
----
+
 
 
 
@@ -117,7 +112,7 @@ Lumos uses Supabase for cloud-based resource storage.
 
 Academic PDF resources can be connected to the portal instead of being kept only inside local folders.
 
-                 🌐 LUMOS
+               🌐 LUMOS
                     │
                     ▼
              📚 Resource UI
@@ -127,8 +122,6 @@ Academic PDF resources can be connected to the portal instead of being kept only
                     │
                     ▼
                📄 PDF Files
-
----
 
 📂 Project Structure
 
@@ -149,17 +142,6 @@ Lumos/
 │   └── dashboard.png
 │
 └── README.md
-
-«If your actual filenames are different, update this section to match your repository.»
-
----
-
-🧪 Current Project Status<br>
-<br>
-Frontend &nbsp    &nbsp    &nbsp  &nbsp&nbsp &nbsp&nbsp    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp     &nbsp       ███████████████████░  Almost there<br>
-Resource Integration &nbsp&nbsp &nbsp████████████████░░░░  In progress<br>
-Cloud Storage    &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp ███████████████░░░░░  In progress<br>
-Authentication  &nbsp &nbsp   &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp  ░░░░░░░░░░░░░░░░░░░░  Planned<br>
 
 🚧 Lumos is actively being developed.
 
@@ -182,7 +164,6 @@ cd lumos
 
 Because Lumos is a frontend web project, you can open the main HTML file in your browser or use a local development server such as VS Code Live Server.
 
----
 
 🍴 Fork Lumos
 
@@ -202,8 +183,6 @@ Lumos
   │
   └── ⭐ Star if you like it
 
----
-
 🤝 Contributing
 
 Found something that could be better?
@@ -218,38 +197,14 @@ You can:
 
 Pull requests and constructive suggestions are welcome.
 
----
 
 🌱 Learning While Building
 
 Lumos is also a learning project.
-
-It is being developed while exploring:
-
-HTML
- ↓
-CSS
- ↓
-JavaScript
- ↓
-Git & GitHub
- ↓
-Cloud Storage
- ↓
-Supabase
- ↓
-More Full-Stack Development 🚀
-
 The goal isn't just to make a website.
 
 It's to learn by actually building one.
 
-`
 
-Lumos · Study Material Sharing Portal · Study Materials · College Study Resources · Academic PDFs · Student Portal · PDF Resources · College Notes · Previous Year Questions · Assignments · Lab Materials · JavaScript · HTML · CSS · Supabase
-`
-
-<br>📚 Study smarter. Build better. Keep exploring. ✨
-
-<br><img src="https://capsule-render.vercel.app/api?type=waving&color=F0523A&height=120&section=footer" width="100%"/></div>     <!--       
+<br><img src="https://capsule-render.vercel.app/api?type=waving&color=F0523A&height=120&section=footer" width="100%"/></div>           
             
