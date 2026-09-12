@@ -31,7 +31,7 @@ Instead of searching through scattered WhatsApp messages, folders and different 
 «Finding your study material shouldn't become a study session itself. 😭»
 
 College students constantly receive PDFs, notes, question papers and other resources from different places.
-
+<br>
 Lumos is built around a simple idea:
 
         📚 FIND
@@ -117,15 +117,15 @@ The project is still evolving as new features, resources and improvements are ad
 
 Want to explore Lumos on your own machine?
 
-1. Clone the repository
+        1. Clone the repository
 
-git clone https://github.com/percyjacksonn/lumos-.git
+      git clone https://github.com/percyjacksonn/lumos-.git
 
-2. Open the project
+        2. Open the project
 
-cd lumos
+            cd lumos
 
-3. Run it
+        3. Run it
 
 Because Lumos is a frontend web project, you can open the main HTML file in your browser or use a local development server such as VS Code Live Server.
 
@@ -137,22 +137,14 @@ Want to experiment with the project?
 You can fork this repository, make your own changes and build on top of it.
 
 
-🤝 Contributing
-
+🤝 Contributing<br>
+*
 Found something that could be better?
-
-You can:
-
-- 🐛 Report a bug
-- 💡 Suggest an idea
-- 🔧 Improve the code
-- 🎨 Improve the UI
-- 📚 Suggest useful features
-
+*
 Pull requests and constructive suggestions are welcome.
 
 
-🌱 Learning While Building
+//🌱 Learning While Building//
 
 Lumos is also a learning project.
 The goal isn't just to make a website.
