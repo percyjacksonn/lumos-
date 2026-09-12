@@ -10,10 +10,9 @@
   <img src="https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Project-2nd%20Year%20CSE-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Platform-Web-purple?style=for-the-badge"/>
-</p></div>---
+</p></div>
 
-<br
-
+<br>
 Lumos is a student-focused study material sharing portal designed to make academic resources easier to discover, access and organize.
 
 Instead of searching through scattered WhatsApp messages, folders and different links, Lumos aims to bring useful college study resources into one simple place:
@@ -26,8 +25,6 @@ Instead of searching through scattered WhatsApp messages, folders and different 
 📖 Reference Resources
 📑 Syllabus
 📦 Other academic resources
-
----
 
 💡 The Idea
 
@@ -53,31 +50,23 @@ Lumos is built around a simple idea:
 
 🧭 How Lumos Works
 
-01 — Pick your path 🧭
+        01 — Pick your path 🧭
 
 Choose the department / academic area you need.
 
-↓
+                 ↓
 
-02 — Choose what you need 📚
+     02 — Choose what you need 📚
 
 Browse categories such as notes, PYQs, assignments, lab materials and more.
 
-↓
+                  ↓
 
-03 — View or save 📄
+        03 — View or save 📄
 
 Open the resource and keep useful material available for later.
 
-↓
 
-04 — Study smarter 🚀
-
-Less searching.
-
-More studying.
-
----
 
 🛠️ Tech Stack
 
